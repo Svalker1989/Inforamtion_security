@@ -12,11 +12,11 @@
 ![](https://github.com/Svalker1989/Inforamtion_security/blob/main/Z1.PNG)  
 Какие уязвимости были вами обнаружены? (список со ссылками: достаточно трёх уязвимостей)  
 1.  Exploit for the 2.2 linux-kernel TCP/IP weakness
-[](https://www.exploit-db.com/exploits/237)  
+[1](https://www.exploit-db.com/exploits/237)  
 2. Служба NFS
-  [](https://www.exploit-db.com/exploits/42305)  
+  [2](https://www.exploit-db.com/exploits/42305)  
 4. RPCBind
-   [](https://www.exploit-db.com/exploits/41974)  
+   [3](https://www.exploit-db.com/exploits/41974)  
 ### Задание 2
 Проведите сканирование Metasploitable в режимах SYN, FIN, Xmas, UDP.  
 Запишите сеансы сканирования в Wireshark.    
