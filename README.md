@@ -27,17 +27,20 @@
 Возможные ответы:  
 * SYN/ACK(порт открыт)
 * RST(порт закрыт)
-* нет ответа (порт отфильтрован)  
+* нет ответа (порт отфильтрован)
+   
 FIN - пакеты отправляются с флагом FIN. Такое сканирование может быть менее заметным и может помочь обойти некоторые фаерволы  
 Возможные ответы:  
 * No response received (even after retransmissions)	open|filtered
 * TCP RST packet	closed
-* ICMP unreachable error (type 3, code 1, 2, 3, 9, 10, or 13)	filtered  
+* ICMP unreachable error (type 3, code 1, 2, 3, 9, 10, or 13)	filtered
+    
 Xmas - пакеты отправляются с флагами FIN, PSH, and URG.  
 Возможные ответы:  
 * No response received (even after retransmissions)	open|filtered
 * TCP RST packet	closed
-* ICMP unreachable error (type 3, code 1, 2, 3, 9, 10, or 13)	filtered  
+* ICMP unreachable error (type 3, code 1, 2, 3, 9, 10, or 13)	filtered
+  
 UDP - сканирование портов происходит по протоколу UDP.  
 Возможные ответы:  
 * Any UDP response from target port -	open
